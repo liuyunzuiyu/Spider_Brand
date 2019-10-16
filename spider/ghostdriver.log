@@ -1,0 +1,33 @@
+[INFO  - 2019-01-07T03:17:10.576Z] GhostDriver - Main - running on port 58126
+[INFO  - 2019-01-07T03:17:12.685Z] Session [b9cdf600-122a-11e9-bbea-676f1e2626e3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-01-07T03:17:12.685Z] Session [b9cdf600-122a-11e9-bbea-676f1e2626e3] - page.customHeaders:  - {}
+[INFO  - 2019-01-07T03:17:12.686Z] Session [b9cdf600-122a-11e9-bbea-676f1e2626e3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-01-07T03:17:12.686Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b9cdf600-122a-11e9-bbea-676f1e2626e3
+[ERROR - 2019-01-07T03:17:13.363Z] Session [b9cdf600-122a-11e9-bbea-676f1e2626e3] - page.onError - msg: TypeError: null is not a constructor (evaluating '$')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-01-07T03:17:13.363Z] Session [b9cdf600-122a-11e9-bbea-676f1e2626e3] - page.onError - stack:
+  (anonymous function) (https://sou.autohome.com.cn/js/auto_home_sug.js?v2:292)
+  (anonymous function) (https://x.autoimg.cn/as/js-2.0.5/sea.js:2)
+  n (https://x.autoimg.cn/as/js-2.0.5/sea.js:2)
+  r (https://x.autoimg.cn/as/js-2.0.5/sea.js:2)
+  n (https://x.autoimg.cn/as/js-2.0.5/sea.js:2)
+  onreadystatechange (https://x.autoimg.cn/as/js-2.0.5/sea.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-01-07T03:17:13.550Z] Session [b9cdf600-122a-11e9-bbea-676f1e2626e3] - page.onError - msg: TypeError: null is not a constructor (evaluating '$('#popautoapp')')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-01-07T03:17:13.550Z] Session [b9cdf600-122a-11e9-bbea-676f1e2626e3] - page.onError - stack:
+  (anonymous function) (https://www.autohome.com.cn/car/:8785)
+  (anonymous function) (https://x.autoimg.cn/as/js-2.0.5/sea.js:2)
+  n (https://x.autoimg.cn/as/js-2.0.5/sea.js:2)
+  n (https://x.autoimg.cn/as/js-2.0.5/sea.js:2)
+  r (https://x.autoimg.cn/as/js-2.0.5/sea.js:2)
+  n (https://x.autoimg.cn/as/js-2.0.5/sea.js:2)
+  onreadystatechange (https://x.autoimg.cn/as/js-2.0.5/sea.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-01-07T03:17:14.586Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1546831034550
+
+  phantomjs://platform/console++.js:263 in error
